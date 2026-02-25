@@ -7,12 +7,14 @@ namespace DemoSession02_OOP_
     internal class BankAccount
     {
         #region Fields
-        //private int _AccountNumber;
-        //private decimal _Balance;
-        
-        //private string _Name;
+        private int _AccountNumber;
+        private decimal _Balance;
+
+        private string _Name;
 
         #endregion
+        #region Encapculation Using Setter And Getter
+
 
         #region Methods
 
@@ -39,6 +41,29 @@ namespace DemoSession02_OOP_
         //    _Name = value;
         //}
         #endregion
+        #endregion
 
+
+        #region Encapculation Using Properties
+
+        //public string Name 
+        //{
+        //    get { return _Name; }
+        //    set {
+        //        if (string.IsNullOrWhiteSpace(value) || value.Length < 3)
+        //        {
+        //            Console.WriteLine("Invalid Input ");
+        //            return;
+        //        }
+        //        _Name = value;
+                
+                
+        //         }
+
+        
+        
+        //}
+
+        #endregion
     }
 }
