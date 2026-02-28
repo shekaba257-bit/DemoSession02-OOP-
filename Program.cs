@@ -45,6 +45,28 @@
 
             #endregion
             #endregion
+            #region Indexer Example01
+            //ToDoList Test =new ToDoList(3);
+
+            //Test[0] = "Sheka";
+            //Test[1] = "Ali";
+            //Test[2] = "";
+            //Console.WriteLine(Test[0]);
+            //Console.WriteLine(Test[1]);
+            //Console.WriteLine(Test[2]);
+
+            #endregion
+            #region Indexer Example 02
+            //Library lib=new Library("AlexLibrary");
+            //lib.AddBook(new Books("123-45600", "oop"));
+            //lib.AddBook(new Books("246-36900", "c#"));
+           
+            //Console.WriteLine(lib[0].Title);//oop
+            
+            
+          
+
+            #endregion
         }
     }
 }
