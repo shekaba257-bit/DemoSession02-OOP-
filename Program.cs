@@ -60,12 +60,48 @@
             //Library lib=new Library("AlexLibrary");
             //lib.AddBook(new Books("123-45600", "oop"));
             //lib.AddBook(new Books("246-36900", "c#"));
-           
-            //Console.WriteLine(lib[0].Title);//oop
-            
-            
-          
 
+            //Console.WriteLine(lib[0].Title);//oop
+
+
+
+
+            #endregion
+            #region Static Keyword
+
+            #region Static Variables
+            //called by NameOf Class
+
+            //Student S1 = new Student("Ali");
+
+
+            //Console.WriteLine($"After Creation Ahmed :Total Student = {Student.TotalStudent}"); //1
+
+            //Student S = new Student("Mohamed");
+
+            //Console.WriteLine($"After Creation Mohamed :Total Student = {Student.TotalStudent}"); // 2
+
+
+            #endregion
+
+            #region Static Method
+
+            //Counter.Increment();
+            //Counter.Decrement();
+
+            //Counter C1 = new Counter();
+            //C1.Increment() //Called ONLY BY ClassName
+            #endregion
+
+            #region Static Constructor
+            //Class Name Product
+            //Product P1 = new Product("Iphone",7888.25M);
+            //Product P2 = new Product("Samsung",5225.25M);
+
+
+            //Console.WriteLine(P1);
+            //Console.WriteLine(P2);
+            #endregion
             #endregion
         }
     }
